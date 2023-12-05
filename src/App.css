@@ -31,13 +31,18 @@ h3 {
   color: #E8E6E3;
 }
 
+h4 {
+  color:#CBC6BF;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
 }
 
 li {
-  background: #f8f8f8;
+  background: #1C1E1F;
+  color: #E8E6E3;
   border: 1px solid #ddd;
   padding: 12px;
   margin: 12px 0;
@@ -63,10 +68,11 @@ li.minus {
   max-height: 200px;
   overflow-y: auto;
   margin-top: 0;
+  color: #D5D2CC;
 }
 
 .form-container {
-  background-color: #fff;
+  background-color: #202325;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -112,13 +118,14 @@ li.minus {
 }
 
 .notification {
-  background-color: #f8d7da;
-  color: #721c24;
+  background-color: #430C11;
+  color: #E1868F;
   padding: 8px;
   margin-top: 5px; /* Adjusted margin */
   border: 1px solid #f5c6cb;
   border-radius: 4px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 /* Add your existing styles */

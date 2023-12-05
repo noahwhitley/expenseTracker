@@ -18,7 +18,7 @@ const AddTransaction = () => {
 
     const newTransaction = {
       id: Math.floor(Math.random() * 100000000),
-      description, // Make sure you set the description property
+      text: description, // Change 'description' to 'text'
       amount: transactionType === 'expense' ? -Math.abs(+amount) : +amount,
     };
 

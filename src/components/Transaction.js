@@ -3,6 +3,7 @@ import React, { useContext, useState } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
 const Transaction = ({ transaction }) => {
+
   const { deleteTransaction } = useContext(GlobalContext);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -26,7 +27,7 @@ const Transaction = ({ transaction }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div>
-        {text && <span>{text}</span>}
+        {text ? <span>{text}</span> : <span>No description</span>}
         {isHovered && (
           <button onClick={handleDelete} className="delete-button">
             X
